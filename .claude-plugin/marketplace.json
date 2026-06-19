@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace-manifest.json",
+  "name": "satori",
+  "owner": {
+    "name": "Satori CI",
+    "url": "https://satori.ci"
+  },
+  "description": "Satori CI plugins for Claude Code.",
+  "plugins": [
+    {
+      "name": "satori",
+      "source": "./",
+      "description": "Test, scan, fuzz, and monitor anything with Satori CI from plain English — Claude writes the YAML playbook, runs it locally or in the cloud, and reads back the report.",
+      "homepage": "https://docs.satori.ci",
+      "repository": "https://github.com/satorici/claude-plugin",
+      "license": "MIT",
+      "keywords": ["testing", "security", "ci", "playbooks", "fuzzing", "satori"]
+    }
+  ]
+}
